@@ -1,5 +1,5 @@
 # GCNW
-The project is a paper.&gt;The concrete implementation of
+We propose GCNW, which is a multimodal word representation model that is obtained by using a graph convolution network. GCNW is a word embedding model that realizes higher comprehensive performance because it incorporates additional multimodal information and uses effective mechanisms to process that information. In addition, the differences in the modality-relation matrix among tasks show that the model has satisfactory applicability. The incorporation of syntactic information can effectively improve the performance of the model. Similar to perceptual information, syntactic information is also needed for the multimodal word representation model. The method that is proposed in this paper can significantly improve the performance of word representation. Various experimental results support this conclusion.
 To get the project started, you first need to construct two matrices: the modal relation matrix and the modal eigenmatrix
 ## How to construct the modal relation matrix?
 You first need to prepare three modal representations, text mode, speech mode, and syntactic mode
