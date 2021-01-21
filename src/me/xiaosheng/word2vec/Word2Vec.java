@@ -69,6 +69,8 @@ public class Word2Vec {
      * @param vec2
      * @return
      */
+
+
     private float calDist(float[] vec1, float[] vec2) {
         float dist = 0;
         for (int i = 0; i < vec1.length; i++) {
